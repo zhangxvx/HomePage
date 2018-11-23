@@ -20,8 +20,18 @@
             border-color: white;
         }
 
+        .logo {
+            width: 100px;
+            height: 50px;
+        }
+
         h3 {
             margin: 10px;
+        }
+
+        iframe {
+            width: 1000px;
+            height: 500px;
         }
     </style>
 </head>
@@ -29,31 +39,27 @@
 <body>
 
     <!-- Nav pills -->
-    <nav class="navbar navbar-expand-sm  bg-light">
+    <nav class="navbar navbar-expand-sm  bg-dark navbar-dark">
         <a class="navbar-brand" href="">
-            <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/ico/favicon-64x64.ico" class="logo" alt="Logo">
+            <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/ico/zx.png" class="logo" alt="Logo">
         </a>
-        <ul class="navbar-nav nav nav-pills" role="tablist">
+        <ul class="navbar-nav nav" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="pill" href="#home">首页</a>
+                <a class="nav-link" data-toggle="pill" href="#home">首页</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" data-toggle="pill" href="#pic">图片</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="pill" href="#pro">项目</a>
+                <a class="nav-link active" data-toggle="pill" href="#pro">项目</a>
             </li>
         </ul>
-        <!-- <form class="form-inline">
-            <input class="form-control" type="text" placeholder="Search">
-            <button class="btn btn-primary" type="submit">Search</button>
-        </form> -->
     </nav>
 
 
     <!-- Tab panes -->
     <div class="tab-content">
-        <div id="home" class="container tab-pane active"><br>
+        <div id="home" class="container tab-pane fade"><br>
             <div class="container">
                 <div class="jumbotron">
                     <h1>欢迎Welcome！</h1>
@@ -66,40 +72,54 @@
         </div>
         <div id="pic" class="container tab-pane fade"><br>
             <div class="container">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%281%29.jpeg" class="image">
-                <img src=" http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%281%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%2811%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%2812%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%2813%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%2814%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%2815%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%2816%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%2817%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%2818%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%282%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%283%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%284%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%285%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%286%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%287%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%288%29.jpg" class="image">
-                <img src="http://imgzx.oss-cn-shanghai.aliyuncs.com/pic/%20%20%289%29.jpg" class="image">
-
+                <h3>腾讯云对象存储</h3>
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(1).jpeg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(1).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(2).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(2).png" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(3).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(4).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(5).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(6).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(7).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(8).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(9).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(10).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(11).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(12).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(13).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(14).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(15).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(16).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(17).jpg" class="image">
+                <img src="https://zximg-1257375537.cos.ap-shanghai.myqcloud.com/pic/%20%20(18).jpg" class="image">
             </div>
         </div>
-        <div id="pro" class="container tab-pane fade"><br>
-            <a href="https://gitee.com/zhangxvx/sn_reduce">
-                <h3>申能</h3>
-            </a>
-            <a href="https://zhangxvx.gitee.io/sn_reduce/#/">
-                <p>申能大数据平台</p>
-            </a>
-            <a href="https://gitee.com/zhangxvx/mic">
-                <h3>微客服</h3>
-            </a>
-            <a href="https://zhangxvx.gitee.io/mic/">
-                <p>微客服:智能获客</p>
-            </a>
+        <div id="pro" class="container tab-pane active"><br>
+            <div class="container">
+                <a href="https://github.com/zhangxvx/SN-Reduce">
+                    <h3>申能</h3>
+                </a>
+                <!-- <iframe src="https://github.com/zhangxvx/SN-Reduce" frameborder="0" frame-ancestors="none"></iframe> -->
+            </div>
+            <div class="container">
+                <a href="https://zhangxvx.gitee.io/sn_reduce/#/">
+                    <p>申能大数据平台</p>
+                </a>
+                <iframe src="https://zhangxvx.gitee.io/sn_reduce/#/" class="border border-primary" frameborder="0"></iframe>
+            </div>
+            <div class="container">
+                <a href="https://github.com/zhangxvx/MicServe">
+                    <h3>微客服</h3>
+                </a>
+                <!-- <iframe src="https://github.com/zhangxvx/MicServe" frameborder="0"></iframe> -->
+            </div>
+            <div class="container">
+                <a href="https://zhangxvx.gitee.io/mic/">
+                    <p>微客服:智能获客</p>
+                </a>
+                <iframe src="https://zhangxvx.gitee.io/mic/" class="border border-primary" frameborder="0"></iframe>
+            </div>
         </div>
     </div>
 
